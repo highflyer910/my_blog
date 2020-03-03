@@ -9,7 +9,7 @@
     </header>
     <section class="posts">
       <ul>
-        <hr class="line">
+
       <li v-for="post in $page.allBlogPost.edges" :key="post.node.id">
         <g-link :to="post.node.path"
           >
@@ -56,18 +56,14 @@ export default {
   font-size: 24px;
   text-align: center;
   line-height: 20px;
-  padding: 0.7em;
-}
-
-.line {
-  border: 0.5px solid #ccc;
-  margin: 15px 0;
+  padding: 0.5em;
+  border-bottom: 0.5px solid #000;
 }
 
 .posts{
  text-align: center;
  font-family: "Stylish";
-
+ margin: 20px;
 }
 
 ul li {
