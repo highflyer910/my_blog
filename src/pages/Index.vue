@@ -8,21 +8,24 @@
       <h2 v-html="$page.metadata.siteDescription" />
     </header>
     <section class="posts">
-      <ul>
-
-      <li v-for="post in $page.allBlogPost.edges" :key="post.node.id">
-        <g-link :to="post.node.path"
-          >
-          {{ post.node.title }}
-        </g-link>
-      </li>
-    </ul>
+      <PostsList v-for="edge in $page.allBlogPost.edges" :key="edge.node.id" :post="edge.node" />
     </section>
+    <footer class="footer">
+      <span class="link">Copyright © {{ new Date().getFullYear() }}. </span>
+      <br>
+      <span class="link">Powered by <a href="//gridsome.org"> Gridsome </a>& Made by
+        <a class="link" href="//twitter.com/highflyer910">Thea</a></span>
+    </footer>
   </Layout>
 </template>
 
 <script>
+import PostsList from '~/components/PostsList.vue'
+
 export default {
+  components: {
+    PostsList
+  },
   metaInfo: {
     title: "Techie Stuff"
   }
@@ -37,15 +40,16 @@ export default {
     siteDescription
   }
     allBlogPost {
-      edges {
-        node {
-          id
-          title
-          path
-          date(format: "DD MMMM, YYYY")
-        }
+    edges {
+      node {
+        id
+        title
+        description
+        date (format: "D MMMM YYYY")
+        path
       }
     }
+  }
   }
 </page-query>
 
@@ -57,20 +61,32 @@ export default {
   text-align: center;
   line-height: 20px;
   padding: 0.5em;
-  border-bottom: 0.5px solid #000;
+  border-bottom: 0.5px solid #ccc;
 }
 
 .posts{
  text-align: center;
- font-family: "Stylish";
- margin: 20px;
+ font-size:22px;
+ margin-top: 25px;
+ list-style: none;
+ text-decoration: none;
+ color: #000;
 }
 
-ul li {
-  font-weight: 200;
-  font-size:22px;
-  list-style: none;
+.footer {
+  padding-top: calc(30em / 10);
+  text-align: center;
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+footer .link {
+  padding: 7px;
+  color: #333;
   text-decoration: none;
-  color: #ccc;
+}
+
+.link a{
+  color: darkred;
 }
 </style>

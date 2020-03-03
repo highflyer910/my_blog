@@ -1,12 +1,7 @@
 <template>
   <div class="layout">
     <slot/>
-    <footer class="footer">
-      <span class="link">Copyright © {{ new Date().getFullYear() }}. </span>
-      <br>
-      <span class="link">Powered by <a href="//gridsome.org"> Gridsome </a>& Made by
-        <a class="link" href="//twitter.com/highflyer910">Thea</a></span>
-    </footer>
+    
     
   </div>
 </template>
@@ -15,8 +10,7 @@
 
 <style>
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Stylish', sans-serif, Roboto;
   margin: 0;
   padding: 0;
   line-height: 1.5;
@@ -30,19 +24,5 @@ body {
   padding-right: 20px;
 }
 
-.footer {
-  padding-top: calc(30em / 2);
-  text-align: center;
-  font-size: 1em;
-}
 
-.link {
-  padding: 7px;
-  color: #333;
-  text-decoration: none;
-}
-
-.link a{
-  color: purple;
-}
 </style>
