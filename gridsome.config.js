@@ -1,22 +1,25 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'My Blog',
+  siteName: "Thea's Blog",
+  siteDescription: "About programming and tech stuff",
   plugins: [
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/posts/**/*.md',
-        typeName: 'BlogPost'      }
+        typeName: 'BlogPost',
+        path: './content/blog/**/*.md'
+      }
     }
   ],
   transformers: {
-    remark: {
-      // global remark options
-    }
+    remark: {}
+  },
+  templates: {
+    BlogPost: '/blog/:title'
   }
-}
+};
