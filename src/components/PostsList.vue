@@ -16,22 +16,27 @@ export default {
 <style>
 .date {
  font-size: 18px;
+ color: #0c8ef5;
 }
 
 .post-list{
-  border: 5px groove #ccc;
-  margin: 10px 0;
+  border-radius:5px;
+  background-color: #14376e;
+  box-shadow: inset 7px 7px 14px #0e274d, 
+            inset -7px -7px 14px #1a488f;
+  margin: 35px 0;
   padding: 10px;
-  border-radius: 50px;
+  color: #78c4fc;
 }
 
 .read {
   padding: 5px;
-  color: #333;
+  color: #78c4fc;
   text-decoration: none;
 }
 
 .description{
   margin-top:-5px;
+  color: #0c8ef5;
 }
 </style>

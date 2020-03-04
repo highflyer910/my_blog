@@ -61,7 +61,7 @@ export default {
   text-align: center;
   line-height: 20px;
   padding: 0.5em;
-  border-bottom: 0.5px solid #ccc;
+  border-bottom: 0.5px solid rgb(12, 142, 245, .8);
 }
 
 .posts{
@@ -70,7 +70,7 @@ export default {
  margin-top: 25px;
  list-style: none;
  text-decoration: none;
- color: #000;
+ color: rgb(12, 142, 245, .8);
 }
 
 .footer {
@@ -82,11 +82,11 @@ export default {
 
 footer .link {
   padding: 7px;
-  color: #333;
+  color: #78c4fc;
   text-decoration: none;
 }
 
 .link a{
-  color: darkred;
+  color: #78c4fc;
 }
 </style>

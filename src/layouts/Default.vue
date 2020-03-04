@@ -1,10 +1,6 @@
 <template>
   <div class="layout">
-     <nav class="nav">
-        <g-link class="nav__link" to="/">
-          
-        </g-link>
-      </nav>
+     
     <slot/> 
   </div>
 </template>
@@ -18,6 +14,8 @@ body {
   padding: 0;
   line-height: 1.5;
   min-height: 100vh;
+  background-color: #14376e;
+  color: #78c4fc;
 }
 
 .layout {
@@ -27,16 +25,4 @@ body {
   padding-right: 20px;
 }
 
-.nav{
-  
-  display: flex;
-  justify-content: flex-end;
-
-}
-
-.nav__link {
-  margin: 10px;
-  text-align: center;
-  line-height: 70px;
-}
 </style>

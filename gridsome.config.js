@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: "Thea's Blog",
-  siteDescription: "About programming and tech stuff",
+  siteDescription: "About programming and techie stuff",
   plugins: [
     {
       use: '@gridsome/source-filesystem',
