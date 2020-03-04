@@ -20,23 +20,26 @@ export default {
 }
 
 .post-list{
-  border-radius:5px;
+  border-radius:35px;
   background-color: #14376e;
-  box-shadow: inset 7px 7px 14px #0e274d, 
-            inset -7px -7px 14px #1a488f;
+  box-shadow: 7px 7px 14px #0e274d, 
+             -7px -7px 14px #1a488f;
   margin: 35px 0;
-  padding: 10px;
+  padding: 20px;
   color: #78c4fc;
 }
 
 .read {
-  padding: 5px;
+  padding: 8px;
   color: #78c4fc;
   text-decoration: none;
 }
 
+.read:hover{
+  color: #99d4ff;
+}
+
 .description{
-  margin-top:-5px;
   color: #0c8ef5;
 }
 </style>

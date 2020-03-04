@@ -1,6 +1,7 @@
 <template>
   <Layout>
-    <br>   
+    <div class="container">
+    <br>  
       <div class="post-title">
       <h1>{{ $page.blogPost.title }}</h1>
       <p class="post-date"> {{ $page.blogPost.date}} | {{$page.blogPost.timeToRead}} min read</p>
@@ -10,7 +11,7 @@
         <hr class="line">
         <g-link to="/" class="back">  &larr; Go Back</g-link>
       </div>
-
+    </div> 
   </Layout>
 </template>
 
