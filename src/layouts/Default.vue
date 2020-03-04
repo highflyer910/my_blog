@@ -1,8 +1,9 @@
 <template>
   <div class="layout">
-    <slot/>
-    
-    
+     <nav class="nav">
+        <g-link class="nav__link" to="/">Home</g-link>
+      </nav>
+    <slot/> 
   </div>
 </template>
 
@@ -24,5 +25,16 @@ body {
   padding-right: 20px;
 }
 
+.nav{
+  
+  display: flex;
+  justify-content: flex-end;
 
+}
+
+.nav__link {
+  margin: 10px;
+  text-align: center;
+  line-height: 70px;
+}
 </style>
