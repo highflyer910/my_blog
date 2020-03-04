@@ -1,5 +1,5 @@
 {
-  "name": "thea's blog",
+  "name": "my-blog",
   "private": true,
   "scripts": {
     "build": "gridsome build",
