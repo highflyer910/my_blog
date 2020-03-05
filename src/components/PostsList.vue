@@ -30,12 +30,18 @@ export default {
 }
 
 .read {
-  padding: 8px;
+  font-size: 20px;
+  padding: 10px;
   color: #78c4fc;
   text-decoration: none;
+  transition: box-shadow .5s;
 }
 
 .read:hover{
+border-radius:20px;
+background: #14376E;
+box-shadow: inset 3px 3px 6px #112f5e, 
+            inset -3px -3px 6px #173f7f;
   color: #99d4ff;
 }
 

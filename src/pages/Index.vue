@@ -62,7 +62,7 @@ export default {
   line-height: 20px;
   padding: 0.5em;
   margin-top: 30px;
-  border-bottom: 0.5px solid rgb(12, 142, 245, .8);
+  border-bottom: 0.5px solid #78c4fc;
 }
 
 .posts{
