@@ -16,36 +16,37 @@ export default {
 <style>
 .date {
  font-size: 18px;
- color: #0c8ef5;
+ color: #a3a3a8;
 }
 
 .post-list{
-  border-radius:35px;
+  border-radius:30px;
   background-color: #14376e;
-  box-shadow: 7px 7px 14px #0e274d, 
-             -7px -7px 14px #1a488f;
+  background: #1D1C24;
+  box-shadow:  7px 7px 14px #131217, 
+             -7px -7px 14px #272631;
   margin: 35px 0;
   padding: 20px;
-  color: #78c4fc;
+  color: #8fe9ff;
 }
 
 .read {
   font-size: 20px;
-  padding: 10px;
-  color: #78c4fc;
+  padding: 12px;
+  color: #8fe9ff;
   text-decoration: none;
   transition: box-shadow .5s;
 }
 
 .read:hover{
-border-radius:20px;
-background: #14376E;
-box-shadow: inset 3px 3px 6px #112f5e, 
-            inset -3px -3px 6px #173f7f;
+border-radius:12px;
+background: #1D1C24;
+box-shadow: inset 6px 6px 12px #111116, 
+            inset -6px -6px 12px #292732;
   color: #99d4ff;
 }
 
 .description{
-  color: #0c8ef5;
+  color: #a3a3a8;
 }
 </style>

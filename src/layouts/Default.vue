@@ -14,8 +14,8 @@ body {
   padding: 0;
   line-height: 1.5;
   min-height: 100vh;
-  background-color: #14376e;
-  color: #78c4fc;
+  background-color: #1D1C24;
+  color:#8fe9ff;
 }
 
 .layout {

@@ -40,6 +40,7 @@
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+  color: #a3a3a8;
 }
   .post-content {
   font-size: 24px;
@@ -48,14 +49,15 @@
 }
 
 hr{
-  background-color: rgb(12, 142, 245, .8);
+  border: 1px solid #8fe9ff;
+  margin: 30px 0;
 }
 
 .back{
  text-decoration: none;
  padding: 5px;
  font-size: 18px;
- color: #d8d8e6;
+ color: #8fe9ff;
  font-family: 'Roboto', sans-serif;
 }
 </style>

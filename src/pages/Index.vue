@@ -63,6 +63,8 @@ export default {
   padding: 0.5em;
   margin-top: 30px;
   border-bottom: 0.5px solid #78c4fc;
+  color: #8fe9ff;
+  text-shadow: 0 0 2px #0a9bbf, 0 0 4px #0a9bbf, 0 0 6px #0a9bbf, 0 0 8px #0a9bbf, 0 0 10px #0a9bbf, 0 0 12px #0a9bbf, 0 0 14px #0a9bbf, 0 0 16px #0a9bbf;
 }
 
 .posts{
@@ -83,11 +85,11 @@ export default {
 
 footer .link {
   padding: 7px;
-  color: #78c4fc;
+  color: #a3a3a8;
   text-decoration: none;
 }
 
 .link a{
-  color: #78c4fc;
+  color: #a3a3a8;
 }
 </style>
