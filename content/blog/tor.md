@@ -1,7 +1,7 @@
 ---
 title: "What Is Tor and Should We Use It?"
 description: "What is Tor and why do we need it? Is it actually worth using? A beginner's guide to using Tor browser."
-date: 2020-03-03
+date: 2020-02-07
 ---
 In October I started contributing to The Tor Project as an Outreachy applicant. Though I didn’t get an internship it was a good chance and opportunity to learn much more about Tor and internet privacy. It helped me to realize how many untruths persist about Tor in modern society. It’s a common thing to think that the Tor browser is used only for crime, Tor was developed by the US government, Tor is illegal to download and so on. The factors causing the misconceptions are a lack of information, misunderstanding, or government propaganda.
 

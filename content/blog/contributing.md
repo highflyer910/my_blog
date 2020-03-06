@@ -1,7 +1,7 @@
 ---
 title: "The beginner's guide to contributing to projects with GitHub Desktop"
 description: "Learn how to make your first open source contribution."
-date: 2020-03-03
+date: 2018-10-13
 ---
 One of the best ways to improve your programming skills is collaboration in open source projects. For the first time, it can be quite intimidating and I was pretty scared myself. I thought I was not good enough to submit code to the bigger projects but I'm here to tell you to not be apprehensive about these things and do not be afraid of making a small change and submitting a pull request for a big project, because it's likely that it will help someone.
 

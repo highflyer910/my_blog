@@ -6,6 +6,13 @@
     <header class="header">
       <h1 v-html="$page.metadata.siteName" />
       <h2 v-html="$page.metadata.siteDescription" />
+      <div class="social">
+       <div class="links">
+      <div class="home__links"><a href="https://github.com/highflyer910" aria-label="Github" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" aria-hidden="true" /></a></div>
+      <div class="home__links"><a href="https://twitter.com/highflyer910" aria-label="Twitter" rel="noopener"><font-awesome-icon :icon="['fab', 'twitter']" aria-hidden="true" /></a></div>
+      <div class="home__links"><a href="https://codepen.io/highflyer/" aria-label="Codepen" rel="noopener"><font-awesome-icon :icon="['fab', 'codepen']" aria-hidden="true" /></a></div>
+    </div>
+      </div>
     </header>
     <section class="posts">
       <PostsList v-for="edge in $page.allBlogPost.edges" :key="edge.node.id" :post="edge.node" />
@@ -91,5 +98,21 @@ footer .link {
 
 .link a{
   color: #a3a3a8;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__links{
+  width: 50px;
+  height: 50px;
+  border-radius: 11px;
+background: #1D1C24;
+box-shadow:  6px 6px 12px #15141a, 
+             -6px -6px 12px #25242e;
+  margin: 10px;           
 }
 </style>
