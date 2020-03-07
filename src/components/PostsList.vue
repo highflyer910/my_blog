@@ -23,6 +23,10 @@ export default {
   border-radius:30px;
   background-color: #14376e;
   background: #1D1C24;
+  -moz-box-shadow:  7px 7px 14px #131217, 
+             -7px -7px 14px #272631;
+  -webkit-box-shadow: 7px 7px 14px #131217, 
+             -7px -7px 14px #272631;          
   box-shadow:  7px 7px 14px #131217, 
              -7px -7px 14px #272631;
   margin: 35px 0;
@@ -41,6 +45,10 @@ export default {
 .read:hover{
 border-radius:12px;
 background: #1D1C24;
+-moz-box-shadow:  inset 6px 6px 12px #111116, 
+            inset -6px -6px 12px #292732;
+-webkit-box-shadow: inset 6px 6px 12px #111116, 
+            inset -6px -6px 12px #292732;
 box-shadow: inset 6px 6px 12px #111116, 
             inset -6px -6px 12px #292732;
   color: #99d4ff;

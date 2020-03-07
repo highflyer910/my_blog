@@ -122,6 +122,10 @@ svg{
   margin: 10px; 
   border-radius: 11px;
   background: #1D1C24;
+  -moz-box-shadow: 6px 6px 12px #121217, 
+             -6px -6px 12px  #282631; 
+  -webkit-box-shadow: 6px 6px 12px #121217, 
+             -6px -6px 12px  #282631; 
   box-shadow:  6px 6px 12px #121217, 
              -6px -6px 12px  #282631;   
   transition: all .7s ease;                  
@@ -130,6 +134,10 @@ svg{
 .home__links:hover{
   border-radius: 11px;
   background: #1D1C24;
+  -moz-box-shadow: 5px 5px 10px #1d1c24, 
+             -5px -5px 10px #1d1c24;
+  -webkit-box-shadow: 6px 6px 12px #121217, 
+             -6px -6px 12px  #282631;            
   box-shadow: 5px 5px 10px #1d1c24, 
              -5px -5px 10px #1d1c24;
 }
