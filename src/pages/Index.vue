@@ -25,9 +25,9 @@
       <PostsList v-for="edge in $page.allBlogPost.edges" :key="edge.node.id" :post="edge.node" />
     </section>
     <footer class="footer">
-      <span class="link">Copyright © {{ new Date().getFullYear() }}. </span>
-      <br>
       <span class="link">Powered by <a href="//gridsome.org"> Gridsome </a>& Made by Thea</a></span>
+      <br>
+      <span class="link"> {{ new Date().getFullYear() }} </span>
     </footer>
   </Layout>
 </template>
