@@ -27,8 +27,7 @@
     <footer class="footer">
       <span class="link">Copyright © {{ new Date().getFullYear() }}. </span>
       <br>
-      <span class="link">Powered by <a href="//gridsome.org"> Gridsome </a>& Made by
-        <a class="link" href="//twitter.com/highflyer910">Thea</a></span>
+      <span class="link">Powered by <a href="//gridsome.org"> Gridsome </a>& Made by Thea</a></span>
     </footer>
   </Layout>
 </template>
