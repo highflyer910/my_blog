@@ -35,7 +35,7 @@ export default {
   padding: 12px;
   color: #8fe9ff;
   text-decoration: none;
-  transition: box-shadow .5s;
+  transition: all .5s ease;
 }
 
 .read:hover{
