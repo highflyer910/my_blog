@@ -18,6 +18,10 @@ body {
   color:#8fe9ff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .layout {
   max-width: 760px;
   margin: 0 auto;
