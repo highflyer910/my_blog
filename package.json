@@ -10,6 +10,7 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.0",
     "acorn": "^7.2.0",
+    "graphql-playground-html": "^1.6.25",
     "gridsome": "^0.7.16",
     "minimist": "^1.2.5"
   }
