@@ -4,14 +4,15 @@ description: Let's learn about comprehensions in Python
 date: 2020-08-31
 ---
 
-Python is full of exciting features. The last one I explored is a comprehension, which brings a powerful functionality within a single line of code. Comprehension creates new sequences (lists, dictionaries, sets...) using sequences already defined. 
+Python does not stop to surprise me. I am currently exploring comprehensions and decided to share some tips about it.
+This is an exciting and powerful feature that allows us to write expressive code in a single line. Comprehension creates new sequences (lists, dictionaries, sets...) using sequences already defined.
 
 **List Comprehension** can be used to replace for loops.
 
 Suppose we want to create a list of squares of even numbers. The first thing that comes in mind would be using for loop, like the one below:
 
-*Iterating over a list using for loop*
 ```Python
+#Iterating over a list using for loop
 new_list = []
 for n in range(10):
       if n % 2 == 0:
@@ -23,8 +24,8 @@ print(new_list)
 ```
 Let’s see how to rewrite it in a single line of code
 
-*Iterating over a list using list comprehension*
 ```Python
+#Iterating over a list using list comprehension
 new_list = [n ** 2 for n in range(10) if n % 2 == 0]
 print(new_list)
 
@@ -40,6 +41,7 @@ In case of our example where we used conditional logic:
 **Dictionary Comprehension** is similar, but we need the key: value pairs to create a dictionary.
 
 ```Python
+#Dictionary Comprehension
 new_dict = {n: n ** 2 for n in range(10) if n % 2 == 0}
 print(new_dict)
 
@@ -49,8 +51,8 @@ print(new_dict)
 Less popular is **Set Comprehension**, which works in a similar way. It returns a set, which means the elements inside cannot contain any duplicates.
 
 
-*Set Comprehension*
 ```Python
+#Set Comprehension
 numbers = [10, 10, 20, 30, 12, -20]
 new_set = {n**2 for n in numbers}
 print(new_set)
