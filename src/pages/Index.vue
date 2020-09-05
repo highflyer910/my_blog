@@ -70,7 +70,7 @@ export default {
 <style>
 .header{
   font-family: "Stylish";
-  font-size: 24px;
+  font-size: 26px;
   text-align: center;
   line-height: 20px;
   padding: 0.5em;
@@ -119,7 +119,8 @@ svg{
 .home__links{
   width: 50px;
   height: 50px;
-  margin: 10px; 
+  margin: 12px; 
+  padding: 9px;
   border-radius: 11px;
   background: #1D1C24;
   -moz-box-shadow: 6px 6px 12px #121217, 
@@ -132,8 +133,6 @@ svg{
 }
 
 .home__links:hover{
-  border-radius: 11px;
-  background: #1D1C24;
   -moz-box-shadow: 5px 5px 10px #1d1c24, 
              -5px -5px 10px #1d1c24;
   -webkit-box-shadow: 6px 6px 12px #121217, 

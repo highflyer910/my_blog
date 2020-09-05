@@ -54,10 +54,55 @@ hr{
 }
 
 .back{
- text-decoration: none;
- padding: 5px;
- font-size: 18px;
  color: #8fe9ff;
- font-family: 'Roboto', sans-serif;
+  background:
+     linear-gradient(
+       to bottom, #0C90B0 0%,
+       #0C90B0 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  transition: background-size .5s;
+  cursor: pointer;
 }
+
+
+.back:hover {
+  background-color: #0C90B0;
+  color: #8fe9ff;
+  background-size: 4px 50px;
+}
+
+a {
+  color: #8fe9ff;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #1D1C24;
+}
+
+code[class*="language-"],
+ pre[class*="language-"] {
+   color: #8fe9ff;
+   background: none;
+   font-family: 'Fira Code', monospace;
+   font-size: 18px;
+   white-space: pre;
+   word-spacing: normal;
+   word-break: normal;
+   word-wrap: normal;
+   line-height: 1.5;
+ 
+   -moz-tab-size: 4;
+   -o-tab-size: 4;
+   tab-size: 4;
+ 
+   -webkit-hyphens: none;
+   -moz-hyphens: none;
+   -ms-hyphens: none;
+   hyphens: none;
+ }
+
+
 </style>

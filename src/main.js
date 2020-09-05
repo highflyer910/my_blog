@@ -3,6 +3,8 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 
+import "prismjs/plugins/line-numbers/prism-line-numbers.css";
+
 export default function (Vue, { router, head, isClient }) {
 	 head.link.push({
     rel: 'stylesheet',
