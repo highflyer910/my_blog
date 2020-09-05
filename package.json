@@ -10,6 +10,8 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.0",
     "acorn": "^7.3.1",
+    "decompress": "^4.2.1",
+    "elliptic": "^6.5.3",
     "graphql-playground-html": "^1.6.25",
     "gridsome": "^0.7.19",
     "minimist": "^1.2.5"
