@@ -132,7 +132,8 @@ svg{
   transition: all .7s ease;                  
 }
 
-.home__links:hover{
+.home__links:hover,
+.home__links:active{
   -moz-box-shadow: 5px 5px 10px #1d1c24, 
              -5px -5px 10px #1d1c24;
   -webkit-box-shadow: 6px 6px 12px #121217, 

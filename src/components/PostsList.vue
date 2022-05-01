@@ -42,13 +42,10 @@ export default {
   transition: all .5s ease;
 }
 
-.read:hover{
+.read:hover,
+.read:active{
 border-radius:12px;
 background: #1D1C24;
--moz-box-shadow:  inset 6px 6px 12px #111116, 
-            inset -6px -6px 12px #292732;
--webkit-box-shadow: inset 6px 6px 12px #111116, 
-            inset -6px -6px 12px #292732;
 box-shadow: inset 6px 6px 12px #111116, 
             inset -6px -6px 12px #292732;
   color: #99d4ff;
