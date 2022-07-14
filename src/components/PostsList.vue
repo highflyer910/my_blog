@@ -3,7 +3,9 @@
     <p class="date" v-html="post.date"/>
     <h3 class="title" v-html="post.title"/>
     <p class="description" v-html="post.description"/>
+    <transition name="fade">
     <g-link :to="post.path" class="read">Read More</g-link>
+    </transition>
   </div>
 </template>
 
@@ -14,6 +16,16 @@ export default {
 </script>
 
 <style>
+.fade-enter-active,
+.fade-leave-active{
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-enter,
+.fade-enter-active{
+  opacity: 0;
+}
+
 .date {
  font-size: 18px;
  color: #a3a3a8;
