@@ -14,6 +14,6 @@
     "elliptic": "^6.5.4",
     "graphql-playground-html": "^1.6.30",
     "gridsome": "^0.7.23",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
