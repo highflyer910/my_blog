@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.0",
+    "@gridsome/transformer-remark": "^0.6.4",
     "acorn": "^7.3.1",
     "decompress": "^4.2.1",
     "elliptic": "^6.5.4",
-    "graphql-playground-html": "^1.6.25",
-    "gridsome": "^0.7.19",
+    "graphql-playground-html": "^1.6.30",
+    "gridsome": "^0.7.23",
     "minimist": "^1.2.5"
   }
 }
