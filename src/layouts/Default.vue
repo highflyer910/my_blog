@@ -15,7 +15,7 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   background-color: #1D1C24;
-  color:#8fe9ff;
+  color: #da5314;
 }
 
 html {

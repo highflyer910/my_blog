@@ -49,16 +49,16 @@
 }
 
 hr{
-  border: 1px solid #8fe9ff;
+  border: 1px solid #da5314;
   margin: 30px 0;
 }
 
 .back{
- color: #8fe9ff;
+ color: #da5314;
   background:
      linear-gradient(
-       to bottom, #0C90B0 0%,
-       #0C90B0 100%
+       to bottom, #ae400e 0%,
+       #ae400e 100%
      );
   background-position: 0 100%;
   background-repeat: repeat-x;
@@ -69,13 +69,13 @@ hr{
 
 
 .back:hover {
-  background-color: #0C90B0;
-  color: #8fe9ff;
+  background-color: #ae400e;
+  color: #1D1C24;
   background-size: 4px 50px;
 }
 
 a {
-  color: #8fe9ff;
+  color: #da5314;
   padding: 5px;
   text-decoration: none;
   cursor: pointer;
@@ -84,7 +84,7 @@ a {
 
 code[class*="language-"],
  pre[class*="language-"] {
-   color: #8fe9ff;
+   color: #da5314;
    background: none;
    font-family: 'Fira Code', monospace;
    font-size: 18px;

@@ -33,7 +33,7 @@ export default {
 
 .post-list{
   border-radius:30px;
-  background-color: #14376e;
+  background-color: #ae400e;
   background: #1D1C24;
   -moz-box-shadow:  7px 7px 14px #131217, 
              -7px -7px 14px #272631;
@@ -43,24 +43,22 @@ export default {
              -7px -7px 14px #272631;
   margin: 35px 0;
   padding: 20px;
-  color: #8fe9ff;
+  color:  #da5314;
 }
 
 .read {
+  border-radius:12px;
   font-size: 20px;
   padding: 12px;
-  color: #8fe9ff;
+  color:  #da5314;
   text-decoration: none;
   transition: all .5s ease;
 }
 
 .read:hover,
 .read:active{
-border-radius:12px;
-background: #1D1C24;
-box-shadow: inset 6px 6px 12px #111116, 
-            inset -6px -6px 12px #292732;
-  color: #99d4ff;
+  font-weight: bold;
+  color:  #e18155;
 }
 
 .description{
